@@ -1,0 +1,48 @@
+<head>
+<style>
+	table,th,td{
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+th,td{padding:10px 20px;}
+</style>
+</head>
+
+<body>
+<h1>표 만드는 파일</h1>
+<table>
+<caption>양식</caption>
+<colgroup>
+ <col style= 'background-color:#eee;'>
+ <col>
+ <col span='2' style='width:150px;'>
+
+ <col>
+
+	<thead>
+	<tr>
+	<th></th>
+	<th>1열</th>
+	<th>2열</th>
+	<th>3열</th>
+	<th>4열</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	 <th >1행</th>
+	 <th>1</th>
+	 <th>2</th>
+	 <th>3</th>
+	 <th rowspan='2'>7</th>
+	</tr>
+	<tr>
+	 <th>2행</th>
+	 <th>4</th>
+	 <th>5</th>
+	 <th>6</th>
+	</tr>
+	</tbody>
+</table>
+
+</body>
